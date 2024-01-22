@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+}
+body{
+	background-color: #4AB;
+}
+.container{
+	position: relative;
+}
+	.fondo{
+		display: flex;
+		justify-content: space-around;
+		height: 650px;
+		overflow: hidden;
+	}
+	.bg1{
+		margin-left: -40px;
+		margin-top: -70px;
+	}
+	.bg2{
+		margin-right: -100px;
+		margin-top: 300px;
+	}
+.minBox{
+	position: absolute;
+ 	top: 50%; 
+	left: 50%; 
+ 	transform: translate(-50%, -70%);
+	display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 130px 160px 110px;
+    margin-top: 100px;
+}
+.microBox-top{
+	background-image:url(images/bg-pattern-card.svg);
+	grid-column: 3/4;
+	width: 350px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.microBox-center{
+	background-color: whitesmoke;
+	grid-column: 3/4;
+	border-bottom: 1px solid black;
+} .microBox-center img{
+	border-radius: 100px;
+	border: 3px solid white;
+	position: absolute;
+	margin-top:-50px;
+	margin-left:-50px ; 
+}
+	.centerP{
+		margin-top: 70px;
+		font-size: 0.7em;
+	} 
+	.centerP h1{
+		font-family: Helvetica;
+	}
+	.age{
+		font-family: swift;
+		color: gray;
+		font-weight: 100;
+	}
+.microBox-bottom{
+	background-color: white;
+	grid-column: 3/4;
+	border-radius: 0px 0px 10px 10px;
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+	.staf{
+		margin: 30px;
+		text-align: center;
+		overflow: hidden;
+	} .staf h1{
+		font-size: 1.4em;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+	}
+	.staf p{
+		font-weight: 300;
+		font-family: 'Raleway', sans-serif;
+
+	}
